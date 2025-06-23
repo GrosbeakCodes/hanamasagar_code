@@ -1846,56 +1846,93 @@ function changeContent(page) {
                                             </div>
                                         </div>
 
-                                        <main>
-                                            <section id="contact" class="contact section">
-                                                <div class="container section-title" data-aos="fade-up">
-                                                    <!-- <h2>Contact Us</h2> -->
-                                                    <h1 class="" style="text-shadow: 0px 5px rgb(187, 196, 196);"><span style="color: black;">CONTACT
-                                                        </span><strong style="color:rgb(254, 0, 0)">US</strong></h1>
-                                                </div>
-                                                <div class="container" data-aos="fade">
-                                                    <div class="row gy-5 gx-lg-5">
-                                                        <div class="col-lg-14">
-                                                            <div class="mb-5">
-                                                                <iframe style="width: 100%; height: 400px;"
-                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1124.396413697502!2d74.94917768011774!3d16.51654686147832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0cd3c775bec95%3A0xe6ce28eccbe2df08!2sJanata%20Co-operative%20Bank%20Ltd.!5e1!3m2!1sen!2sin!4v1749119313117!5m2!1sen!2sin"
-                                                                    frameborder="0" allowfullscreen=""></iframe>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="container mt-5">
-                                                    <div class="row text-center equal-height">
-                                                        <div class="col-md-4 d-flex">
-                                                            <div class="contact-container w-100">
-                                                                <h4><b>Contact Us</b></h4>
-                                                                <p>
-                                                                  address
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-4 d-flex">
-                                                            <div class="contact-container w-100">
-                                                                <h4>Find Us</h4>
-                                                                <p>Phone: </p>
-                                                                <p>Email: </p>
-                                                                <p>DNS: </p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-4 d-flex">
-                                                            <div class="contact-container w-100">
-                                                                <h4>Working Hours</h4>
-                                                                <p>Main Branch - Monday to Saturday - 10:00 am to 6:00 pm</p>
-                                                                <p>Main Branch- Monday to Saturday - 10:00 am to 6:00 pm</p>
-                                                                <p>2nd & 4th Saturday is Holiday for both Branches.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <br>
-                                                <br>
-                                            </section>
-                                        </main>
+                                       <section id="contact" class="contact section">
+  <div class="container">
+    <div class="section-title text-center" data-aos="fade-up">
+      <h1 style="text-shadow: 0px 5px rgb(187, 196, 196);">
+        <span style="color: black;">CONTACT </span>
+        <strong style="color:rgb(254, 0, 0)">US</strong>
+      </h1>
+    </div>
+
+    <div class="row g-4">
+      <!-- Left Column: Contact Info -->
+      <div class="col-md-6">
+        <div class="info-card">
+          <p><i class="fas fa-map-marker-alt"></i><strong>Address:</strong><br>
+            Hanamasagar Urban Co-Operative Bank Ltd,<br>
+            College Road, APMC Yard<br>
+            Hanamasagar-583 281,<br>
+            Tq-Kushtagi, Dist- Koppal, Karnataka
+          </p>
+        </div>
+
+        <div class="info-card">
+          <p><i class="fas fa-phone-alt"></i><strong>Phone:</strong> 9742116311</p>
+          <p><i class="fas fa-fax"></i><strong>Fax:</strong> 08536 - 270231</p>
+        </div>
+
+        <div class="info-card">
+          <p><i class="fas fa-envelope"></i><strong>Email:</strong> banking@hucobank.com</p>
+        </div>
+
+        <div class="info-card">
+          <p><i class="fas fa-clock"></i><strong>Bank Timings:</strong><br>
+            Mon–Fri: 10:00 AM – 4:00 PM<br>
+            Sat: 10:00 AM – 2:00 PM<br>
+            Sun: Closed
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Column: Google Map -->
+      <div class="col-md-6">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1234567890123!2d75.700123456!3d16.830123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc6bc1234567890%3A0x123456789abcdef!2sBijapur!5e0!3m2!1sen!2sin!4v1711234567890"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            class="gmap-frame"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .info-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .info-card i {
+      font-size: 18px;
+      margin-right: 10px;
+      color: #6f00ff;
+    }
+
+    .map-container {
+      height: 100%;
+    }
+
+    .gmap-frame {
+      width: 100%;
+      height: 100%;
+      min-height: 450px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+
+    @media (max-width: 768px) {
+      .gmap-frame {
+        min-height: 300px;
+      }
+    }
+  </style>
+</section>
+                                    
 
                  `;
             break;

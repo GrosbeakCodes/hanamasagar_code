@@ -4078,10 +4078,11 @@ h2 {
       font-size: 2.8rem;
       font-weight: 800;
       margin-bottom: 60px;
+      color: #ff0000;
     }
 
     .services-section h2 span {
-      color: #ff2e63;
+      color: #341dff;
     }
 
     .flip-card {
@@ -4114,26 +4115,27 @@ h2 {
       padding: 30px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: center; 
       align-items: center;
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
 
     .flip-card-front {
-      background: #dfc6ff;
-      color: #333;
+      background: #0059ff;
+      /* background-image: url('thammanapaa.jpg'); */
+      color: #fffafa;
     }
 
     .flip-card-back {
-      background: #003366;
-      color: #fff;
+      background: #d1d0fc;
+      color: #000000;
       transform: rotateY(180deg);
     }
 
     .flip-icon {
-      font-size: 40px;
+      font-size: 80px;
       margin-bottom: 15px;
-      color: #ff2e63;
+      color: #ffffff;
     }
 
     .flip-title {
@@ -4147,3 +4149,8 @@ h2 {
       padding: 0 10px;
     }
   
+
+
+
+
+    
