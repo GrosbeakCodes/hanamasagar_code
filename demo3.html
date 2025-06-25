@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Circle Layout - Larger Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .circle-section {
+            padding: 60px 15px;
+            text-align: center;
+            position: relative;
+            background-color: rgb(202, 202, 248);
+        }
+
+        .circle-container {
+            position: relative;
+            width: 700px;
+            height: 700px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .center-table {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            width: 340px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+        }
+
+        .card-circle {
+            position: absolute;
+            width: 160px;
+            height: 140px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+            padding: 12px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card-circle i {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .card-circle:hover {
+            transform: scale(1.05);
+        }
+
+        /* Circle positions - desktop */
+        .card1 {
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card2 {
+            top: 18%;
+            left: 88%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card3 {
+            top: 50%;
+            left: 100%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card4 {
+            top: 82%;
+            left: 88%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card5 {
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card6 {
+            top: 82%;
+            left: 12%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card7 {
+            top: 50%;
+            left: 0%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card8 {
+            top: 18%;
+            left: 12%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card9 {
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(180deg);
+        }
+
+        /* Responsive layout - mobile */
+        @media (max-width: 768px) {
+            .circle-container {
+                display: none;
+            }
+
+            .cards-mobile {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+                gap: 15px;
+                max-width: 540px;
+                margin: 30px auto 0;
+            }
+
+            .card-circle {
+                position: static;
+                width: 100%;
+                height: 140px;
+            }
+
+            .center-table {
+                position: static;
+                transform: none;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="circle-section">
+
+        <!-- Desktop View -->
+        <div class="circle-container">
+            <div class="center-table">
+                <h5 class="mb-3">Main Table</h5>
+                <table class="table table-bordered table-sm mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mortgage Loan</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Cash Credit Loan</td>
+                            <td>✖</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Salary Loan</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Building Loan</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Gold Loan</td>
+                            <td>✖</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ware House Receipt Loan</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Vehicle Loan</td>
+                            <td>✖</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Suarity Loan</td>
+                            <td>✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card-circle card1" style="background-image: url('https://picsum.photos/id/1011/300/200');"><i
+                    class="bi bi-person"></i>Card 1</div>
+            <div class="card-circle card2" style="background-image: url('https://picsum.photos/id/1027/300/200');"><i
+                    class="bi bi-chat-dots"></i>Card 2</div>
+            <div class="card-circle card3" style="background-image: url('https://picsum.photos/id/1031/300/200');"><i
+                    class="bi bi-gear"></i>Card 3</div>
+            <div class="card-circle card4" style="background-image: url('https://picsum.photos/id/1040/300/200');"><i
+                    class="bi bi-bell"></i>Card 4</div>
+            <div class="card-circle card5" style="background-image: url('https://picsum.photos/id/1055/300/200');"><i
+                    class="bi bi-globe"></i>Card 5</div>
+            <div class="card-circle card6" style="background-image: url('https://picsum.photos/id/1062/300/200');"><i
+                    class="bi bi-envelope"></i>Card 6</div>
+            <div class="card-circle card7" style="background-image: url('https://picsum.photos/id/1070/300/200');"><i
+                    class="bi bi-star"></i>Card 7</div>
+            <div class="card-circle card8" style="background-image: url('https://picsum.photos/id/1084/300/200');"><i
+                    class="bi bi-cloud"></i>Card 8</div>
+            <div class="card-circle card9" style="background-image: url('https://picsum.photos/id/1091/300/200');"><i
+                    class="bi bi-box"></i>Card 9</div>
+        </div>
+
+        <!-- Mobile View -->
+        <div class="center-table d-md-none mb-4">
+            <h5 class="mb-3">Main Table</h5>
+            <table class="table table-bordered table-sm mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mortgage Loan</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cash Credit Loan</td>
+                        <td>✖</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Salary Loan</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Building Loan</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Gold Loan</td>
+                        <td>✖</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Ware House Receipt Loan</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Vehicle Loan</td>
+                        <td>✖</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Suarity Loan</td>
+                        <td>✔</td>
+                    </tr>
+                    <!-- <tr><td>9</td><td>India</td><td>✖</td></tr> -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cards-mobile d-md-none">
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1011/300/200');"><i
+                    class="bi bi-person"></i>Card 1</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1027/300/200');"><i
+                    class="bi bi-chat-dots"></i>Card 2</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1031/300/200');"><i
+                    class="bi bi-gear"></i>Card 3</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1040/300/200');"><i
+                    class="bi bi-bell"></i>Card 4</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1055/300/200');"><i
+                    class="bi bi-globe"></i>Card 5</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1062/300/200');"><i
+                    class="bi bi-envelope"></i>Card 6</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1070/300/200');"><i
+                    class="bi bi-star"></i>Card 7</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1084/300/200');"><i
+                    class="bi bi-cloud"></i>Card 8</div>
+            <div class="card-circle" style="background-image: url('https://picsum.photos/id/1091/300/200');"><i
+                    class="bi bi-box"></i>Card 9</div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

@@ -228,7 +228,7 @@ function changeContent(page) {
         case 'management':
             contentDiv.innerHTML = `
                             <div class="container001">
-                                <img src="assets/img/page-top-images/management.jpeg" alt="Snow" style="width:100%;">
+                                <img src="assets/img/page-top-images/management.png" alt="Snow" style="width:100%;">
                                 <div class="centered text-white">
                                     <h1 style="font-size:clamp(14px, 4vw, 40px);color:rgb(249, 252, 249);">MANAGEMENT</h1>
                                     <p style="font-size:clamp(14px, 4vw, 15px);color:rgb(249, 252, 249);">Home / MANAGEMENT</p>
@@ -621,8 +621,8 @@ function changeContent(page) {
 
                   <tr class="even" >
                     <td class="text-center">01</td>
-                    <td>Purpose</td>
-                    <td>Purchase of House site / Purchase of House / House Construction/ House Repairs/ Marriage Expenses</td>
+                    <td>Mortgage Loan</td>
+                    <td>14.50%</td>
                   </tr>
 
                    <tr class="even" >
@@ -1655,7 +1655,7 @@ function changeContent(page) {
         case 'branch':
             contentDiv.innerHTML = `
                             <div class="container001">
-                                    <img src="assets/images/Branches1upd.jpg" alt="Snow" style="width:100%;">
+                                    <img src="assets/img/page-top-images/branch.png" alt="Snow" style="width:100%;">
                                     <div class="centered text-white">
                                         <h1 style="font-size:clamp(14px, 4vw, 40px);color:white;">BRANCHES</h1>
                                         <p style="font-size:clamp(14px, 4vw, 15px);color:white;">Home / BRANCHES</p>

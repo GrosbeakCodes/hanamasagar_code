@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deposit Chat Assistant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      background: #eaf3ff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .chat-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+
+    .chat-bubble {
+      max-width: 80%;
+      padding: 15px 20px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 1.5;
+      display: inline-block;
+      position: relative;
+    }
+
+    .bot {
+      background: #0d6efd;
+      color: #fff;
+      align-self: flex-start;
+      border-bottom-left-radius: 4px;
+    }
+
+    .user {
+      background: #f1f1f1;
+      color: #000;
+      align-self: flex-end;
+      border-bottom-right-radius: 4px;
+      margin-left: auto;
+    }
+
+    .chat-icon {
+      font-size: 18px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .chat-header {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0a3d62;
+    }
+
+    @media (max-width: 576px) {
+      .chat-bubble {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="chat-container">
+  <div class="chat-header">
+    <h4>💬 Deposit Chat Assistant</h4>
+    <small>Personalized savings suggestions</small>
+  </div>
+
+  <!-- Chat Bubbles -->
+  <div class="chat-bubble bot">
+    <i class="bi bi-robot chat-icon"></i>
+    Hello! Looking to grow your money? Here are some great deposit plans:
+  </div>
+
+  <div class="chat-bubble bot">
+    <i class="bi bi-piggy-bank-fill chat-icon"></i>
+    <strong>Fixed Deposit</strong><br/>
+    ✅ 6.5% for 1 Year<br/>
+    ✅ Safe & guaranteed<br/>
+    ✅ Min ₹1,000 only
+  </div>
+
+  <div class="chat-bubble user">
+    I'm a senior citizen. Any benefits?
+  </div>
+
+  <div class="chat-bubble bot">
+    <i class="bi bi-person-check-fill chat-icon"></i>
+    <strong>Senior Citizen FD</strong><br/>
+    🎉 7.0% interest for 60+ age<br/>
+    🔒 Secure & stable returns
+  </div>
+
+  <div class="chat-bubble bot">
+    <i class="bi bi-lock-fill chat-icon"></i>
+    <strong>Tax Saver FD</strong><br/>
+    💰 6.0% for 5 years<br/>
+    🧾 Tax exemption under 80C
+  </div>
+
+  <div class="chat-bubble user">
+    I want flexible savings
+  </div>
+
+  <div class="chat-bubble bot">
+    <i class="bi bi-wallet2 chat-icon"></i>
+    <strong>Savings Account</strong><br/>
+    🟢 3.5% interest<br/>
+    💸 Withdraw anytime<br/>
+    📱 UPI, NetBanking enabled
+  </div>
+
+</div>
+
+</body>
+</html>
