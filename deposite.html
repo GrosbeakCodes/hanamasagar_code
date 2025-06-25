@@ -1,126 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Deposit Chat Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Split Deposit Layout</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
   <style>
-    body {
-      background: #eaf3ff;
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
+ 
+    .deposit-section {
+      padding: 70px 20px;
     }
 
-    .chat-container {
-      max-width: 600px;
-      margin: 40px auto;
-      background: #ffffff;
-      border-radius: 16px;
-      padding: 20px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    }
-
-    .chat-bubble {
-      max-width: 80%;
-      padding: 15px 20px;
+    .deposit-container {
+      display: flex;
+      flex-wrap: wrap;
+      background: white;
       border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .deposit-table-side {
+      flex: 1 1 60%;
+      padding: 40px 30px;
+    }
+
+    .deposit-info-side {
+      flex: 1 1 40%;
+      background: linear-gradient(135deg, #0066cc, #00bfff);
+      color: white;
+      padding: 40px 30px;
+    }
+
+    .deposit-info-side h4 {
       margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .deposit-info-side p {
       font-size: 15px;
-      line-height: 1.5;
-      display: inline-block;
-      position: relative;
+      margin-bottom: 10px;
     }
 
-    .bot {
-      background: #0d6efd;
-      color: #fff;
-      align-self: flex-start;
-      border-bottom-left-radius: 4px;
+    table th,
+    table td {
+      padding: 12px 15px;
+      font-size: 16px;
     }
 
-    .user {
-      background: #f1f1f1;
-      color: #000;
-      align-self: flex-end;
-      border-bottom-right-radius: 4px;
-      margin-left: auto;
-    }
+    @media (max-width: 768px) {
+      .deposit-container {
+        flex-direction: column;
+      }
 
-    .chat-icon {
-      font-size: 18px;
-      margin-right: 8px;
-      vertical-align: middle;
-    }
-
-    .chat-header {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #0a3d62;
-    }
-
-    @media (max-width: 576px) {
-      .chat-bubble {
-        max-width: 100%;
+      .deposit-table-side,
+      .deposit-info-side {
+        flex: 1 1 100%;
+        padding: 25px 20px;
       }
     }
   </style>
 </head>
+
 <body>
 
-<div class="chat-container">
-  <div class="chat-header">
-    <h4>💬 Deposit Chat Assistant</h4>
-    <small>Personalized savings suggestions</small>
-  </div>
+  <section class="deposit-section">
+    <div class="deposit-container">
+      <!-- Left: Deposit Table -->
+      <div class="deposit-table-side">
+        <h3 class="mb-4">Deposit Schemes</h3>
+        <table class="table table-bordered mb-0">
+          <tbody>
+            <tr>
+              <th colspan="4" class="text-center">Deposit Interest Rates (w.e.f 01.07.2024)</th>
+            </tr>
+            <tr>
+              <th colspan="3" class="text-center"> Period</th>
+              <th>General</th>
+            </tr>
+            <tr>
+              <td>30 Days</td>
+              <td>TO</td>
+              <td>45 Days</td>
+              <td>5.00% Interest</td>
+            </tr>
+            <tr>
+              <td>46 Days</td>
+              <td>TO</td>
+              <td>90 Days</td>
+              <td>6.00% Interest</td>
+            </tr>
+            <tr>
+              <td>91 Days</td>
+              <td>TO</td>
+              <td>180 Days</td>
+              <td>6.25% Interest</td>
+            </tr>
+            <tr>
+              <td>181 Days</td>
+              <td>TO</td>
+              <td>1 year</td>
+              <td>7.00% Interest</td>
+            </tr>
+            <tr>
+              <td>above</td>
+              <td></td>
+              <td> 1 year</td>
+              <td>9.00% Interest</td>
+            </tr>
+            <tr>
+              <td>Senior Citizens</td>
+              <td></td>
+              <td></td>
+              <td>9.50% Interest</td>
+            </tr>
 
-  <!-- Chat Bubbles -->
-  <div class="chat-bubble bot">
-    <i class="bi bi-robot chat-icon"></i>
-    Hello! Looking to grow your money? Here are some great deposit plans:
-  </div>
 
-  <div class="chat-bubble bot">
-    <i class="bi bi-piggy-bank-fill chat-icon"></i>
-    <strong>Fixed Deposit</strong><br/>
-    ✅ 6.5% for 1 Year<br/>
-    ✅ Safe & guaranteed<br/>
-    ✅ Min ₹1,000 only
-  </div>
+          </tbody>
+        </table>
+      </div>
 
-  <div class="chat-bubble user">
-    I'm a senior citizen. Any benefits?
-  </div>
-
-  <div class="chat-bubble bot">
-    <i class="bi bi-person-check-fill chat-icon"></i>
-    <strong>Senior Citizen FD</strong><br/>
-    🎉 7.0% interest for 60+ age<br/>
-    🔒 Secure & stable returns
-  </div>
-
-  <div class="chat-bubble bot">
-    <i class="bi bi-lock-fill chat-icon"></i>
-    <strong>Tax Saver FD</strong><br/>
-    💰 6.0% for 5 years<br/>
-    🧾 Tax exemption under 80C
-  </div>
-
-  <div class="chat-bubble user">
-    I want flexible savings
-  </div>
-
-  <div class="chat-bubble bot">
-    <i class="bi bi-wallet2 chat-icon"></i>
-    <strong>Savings Account</strong><br/>
-    🟢 3.5% interest<br/>
-    💸 Withdraw anytime<br/>
-    📱 UPI, NetBanking enabled
-  </div>
-
-</div>
+      <!-- Right: Info Notes -->
+      <div class="deposit-info-side">
+        <h4>Important Notes</h4>
+        <p>✔ Interest rates on Frequency Account (RD) for 12 months to 60 months 8.00%.</p>
+        <p>✔ 3. Invest your money in Sagar Cash Certificate and get a years (96 months) for senior citizens and 7 years
+          6 months (90 months) now (double).</p>
+        <p>✔ Senior Citizens will be charged 0.50% more interest if deposited for more
+          than 1 year.</p>
+      </div>
+    </div>
+  </section>
 
 </body>
+
 </html>
+
+
+
+

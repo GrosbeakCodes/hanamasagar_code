@@ -1326,327 +1326,156 @@ function changeContent(page) {
                             </div>
                         </div>
                         
-                        <main>
-                            <!-- Team Section -->
-                            <section id="team" class="team section">
+                        <main>                    
+                        <section class="deposit-section">
+                            <div class="deposit-container">
+                            <!-- Left: Deposit Table -->
+                            <div class="deposit-table-side">
+                                <h3 class="mb-4">Deposit Schemes</h3>
+                                <table class="table table-bordered mb-0">
+                                <tbody>
+                                    <tr>
+                                    <th colspan="4" class="text-center">Deposit Interest Rates (w.e.f 01.07.2024)</th>
+                                    </tr>
+                                    <tr>
+                                    <th colspan="3" class="text-center"> Period</th>
+                                    <th>General</th>
+                                    </tr>
+                                    <tr>
+                                    <td>30 Days</td>
+                                    <td>TO</td>
+                                    <td>45 Days</td>
+                                    <td>5.00% Interest</td>
+                                    </tr>
+                                    <tr>
+                                    <td>46 Days</td>
+                                    <td>TO</td>
+                                    <td>90 Days</td>
+                                    <td>6.00% Interest</td>
+                                    </tr>
+                                    <tr>
+                                    <td>91 Days</td>
+                                    <td>TO</td>
+                                    <td>180 Days</td>
+                                    <td>6.25% Interest</td>
+                                    </tr>
+                                    <tr>
+                                    <td>181 Days</td>
+                                    <td>TO</td>
+                                    <td>1 year</td>
+                                    <td>7.00% Interest</td>
+                                    </tr>
+                                    <tr>
+                                    <td>above</td>
+                                    <td></td>
+                                    <td> 1 year</td>
+                                    <td>9.00% Interest</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Senior Citizens</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>9.50% Interest</td>
+                                    </tr>
 
-                            <!-- Section Title -->
-                            <div class="container section-title mb-1" data-aos="fade-up" style="margin-bottom: -100px;">
-                                     <h1 class="" style="text-shadow: 0px 5px rgb(187, 195, 196);"><span
-                                    style="color: rgb(212, 38, 38);"></span><strong style="color:red;">DEPOSIT</strong></h1>
-                                </div><!-- End Section Title -->
-                                <br>
-                                   <br>
-                                   
 
-                            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                                <div class="row gy-5">
-
-
-                        <section class="section" style="background-color:rgb(255, 255, 255);">
-                            <div class="column" style="border: solid rgb(255, 0, 0) 2px;">
-                             <div class="card-container">
-                                    <div class="card" style="color:rgb(255, 255, 255);">
-                                        <div class="card-face front">
-                                        <img src="assets/img/Recurring-Deposit.jpg" alt="Image 1">
-                                        </div>
-                                        <div class="card-face back">
-                                        <h2 style="color:rgb(255, 255, 255);">SAVINGS DEPOSIT</h2>
-                                        </div>
-                                    </div>
-                                </div>                               
-                                <div class="address">
-                                    <h2 style="color:rgb(255, 9, 9);">SAVINGS DEPOSIT</h2>
-                                      <p>
-                                      ⤑ Minimum Balance Rs.500/- to be maintained.<br><br>
-
-                                        ⤑ Interest at 3.0% P.A on daily balance will be credited half yearly.<br><br>
-
-                                        ⤑ Any Branch Banking facility available.<br><br>
-
-                                        ⤑ CTS cheque facility available<br><br>
-
-                                        ⤑ Direct member of clearing house <br><br>
-
-                                        ⤑ Personalized cheque book facility is available across all the branches.
-                                      </p>
-                                </div>                                                              
-                            </div>
-                           <div class="column" style="border: solid rgb(255, 0, 0) 2px;">
-                               
-                               <div class="card-container">
-                                    <div class="card">
-                                        <div class="card-face front">
-                                        <img src="assets/img/Current-deposit1.jpg" alt="Image 1">
-                                        </div>
-                                        <div class="card-face back">
-                                        <h2 style="color:rgb(255, 255, 255);">CURRENT DEPOSIT</h2>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-                                <div class="address">
-                                        <h2 style="color:rgb(255, 0, 0);">CURRENT DEPOSIT</h2>
-                                      <p>
-                                      ⤑ Convenient for Individual/Traders/Businessmen/Firms and Companies<br><br>
-
-                                        ⤑ Minimum Rs.1000/- Balance required to be maintained<br><br>
-
-                                        ⤑ Direct member of clearing house<br><br>
-
-                                        ⤑ CTS cheque facility available<br><br>
-
-                                        ⤑ Cheques deposited for clearing before 12 Noon will be credited next day evening on full working day as per NPCI rules
-                                      </p>
-                                </div>
-                                
-                               
-                            </div>
-                             <div class="column" style="border: solid rgb(255, 0, 0) 2px;">
-                               
-                               <div class="card-container">
-                                    <div class="card">
-                                        <div class="card-face front">
-                                        <img src="assets/img/Gold loan1.jpg" alt="Image 1">
-                                        </div>
-                                        <div class="card-face back">
-                                        <h2 style="color:rgb(255, 255, 255);">RECURRING DEPOSIT-MONTHLY</h2>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-                                <div class="address">
-                                 <h2 style="color:rgb(255, 0, 0);">RECURRING DEPOSIT-MONTHLY</h2>
-                                      <p>
-                                    ⤑ Investor can deposit monthly a fixed amount in an account for a fixed period on monthly basis.<br><br>
-
-                                      ⤑ Interest for 1 year is 7% and above 2 years 8%<br><br>
-
-                                        ⤑ Interest will be credited quarterly rests<br><br>
-
-                                        ⤑ Accounts can be opened by Individuals, firms, trusts, HUF etc<br><br>
-
-                                        ⤑ Loan facility available <br><br>
-
-                                        ⤑ Nomination facility available
-                                      </p>
-                                </div>
-                                
-                               
+                                </tbody>
+                                </table>
                             </div>
 
-                            <div class="column" style="border: solid rgb(255, 0, 0) 2px;">
-                               
-                               <div class="card-container">
-                                    <div class="card">
-                                        <div class="card-face front">
-                                        <img src="assets/img/Pigmy_small.jpg" alt="Image 1">
-                                        </div>
-                                        <div class="card-face back">
-                                        <h2 style="color:rgb(255, 255, 255);">PIGMY DEPOSIT</h2>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-                                <div class="address">
-                                <h2 style="color:rgb(255, 0, 0);">PIGMY DEPOSIT</h2>
-                                      <p>
-                                      ⤑ Convenient for Individual/Traders/Businessmen/Firms and Companies<br><br>
-
-                                        ⤑ Minimum Rs.1000/- Balance required to be maintained<br><br>
-
-                                        ⤑ Direct member of clearing house<br><br>
-
-                                        ⤑ CTS cheque facility available<br><br>
-
-                                        ⤑ Cheques deposited for clearing before 12 Noon will be credited next day evening on full working day as per NPCI rules
-                                      </p>
-                                </div>
-                                
-                               
+                            <!-- Right: Info Notes -->
+                            <div class="deposit-info-side">
+                                <h4>Important Notes</h4>
+                                <p>✔ Interest rates on Frequency Account (RD) for 12 months to 60 months 8.00%.</p>
+                                <p>✔ Invest your money in Sagar Cash Certificate and get a years (96 months) for senior citizens and 7 years
+                                6 months (90 months) now (double).</p>
+                                <p>✔ Senior Citizens will be charged 0.50% more interest if deposited for more
+                                than 1 year.</p>
                             </div>
-                        </section>  
+                            </div>
+                        </section>
 
 
+                       <style>
+  .deposit-section {
+    padding: 70px 20px;
+  }
 
-                         
+  .deposit-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    overflow: hidden;
+    max-width: 960px;
+    margin: auto;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .deposit-container:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .deposit-table-side {
+    flex: 1 1 60%;
+    padding: 40px 30px;
+  }
+
+  .deposit-info-side {
+    flex: 1 1 40%;
+    background: linear-gradient(135deg, #0066cc, #00bfff);
+    color: white;
+    padding: 40px 30px;
+  }
+
+  .deposit-info-side h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .deposit-info-side p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  table th,
+  table td {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  .deposit-table-side table,
+  .deposit-table-side th,
+  .deposit-table-side td {
+    border: 1px solid #333 !important;
+    border-collapse: collapse;
+  }
+
+  .deposit-table-side table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .deposit-table-side tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  @media (max-width: 768px) {
+    .deposit-container {
+      flex-direction: column;
+    }
+
+    .deposit-table-side,
+    .deposit-info-side {
+      flex: 1 1 100%;
+      padding: 25px 20px;
+    }
+  }
+</style>
+
+
                         
-                            <hr style="height:2px;border-width:0;color:black;background-color:black;width:50%;margin:auto">
-                          
-                        
-
-                          <!-- ======= Services Section ======= -->
-                                <section id="services" class="services">
-                                    <div class="container">
-                                   
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-12">
-                                        <div class="table-responsive">
-
-                                            <table style="border: solid black 2px;">
-                                            <thead>
-                                                <tr class="table-dark"
-                                                style="background-color:  #030303; color: antiquewhite; font-size: 20px;">
-                                                <th scope="col" colspan="7" style="text-align: center;">Bhagyalaxmi Deposit Interest Rates  (Compound Interest) (w.e.f 01.12.2024)</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                            <style>
-                                                td {
-                                                    text-align: center;
-                                                    }
-                                            </style>
-                                                <tr style="background-color: #104E8B;" class="text-white">
-                                                <!-- <td></td> -->
-                                                <td colspan="5" class="text-center"> <b>Period</b></td>
-                                                <!-- <td></td> -->
-                                                <!-- <td></td> -->
-                                                <td><b>General</b></td>
-                                                
-                                                </tr>
-                                                <tr class="text-center" style="background-color: #b4d4f5;">
-                                                <td>above</td>
-                                                <td class="text-center">1</td>
-                                                <td class="text-center">year</td>
-                                                <td class="text-center">to</td>
-                                                <td>below 13 months</td>
-                                                <td class="text-center">7.50%</td>
-                                                
-                                                </tr>
-                                                <tr class="text-white" style="background-color: #104E8B;">
-                                                <td>above</td>
-                                                <td>13</td>
-                                                <td>months</td>
-                                                <td>to</td>
-                                                <td>below  3 years</td>
-                                                <td>8.00%</td>
-                                               
-                                                </tr>
-                                                <tr class="" style="background-color: #b4d4f5;">
-                                                <td>above</td>
-                                                <td>3</td>
-                                                <td>years</td>
-                                                <td>to</td>
-                                                <td>above</td>
-                                                <td>7.50%</td>
-                                               
-                                               
-                                            </tbody>
-                                            </table>
-
-                                        </div>
-                                       
-                                        </div><!-- end col -->
-                                    </div>
-                                    </div>
-                                </section><!-- End Services Section -->
-
-
-                         
-
-
-                                
-                                <!-- ======= Services Section ======= -->
-                                <section id="services" class="services">
-                                    <div class="container">
-                                   
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-12">
-                                        <div class="table-responsive">
-
-                                            <table style="border: solid black 2px;">
-                                            <thead>
-                                                <tr class="table-dark"
-                                                style="background-color:  #030303; color: antiquewhite; font-size: 20px;">
-                                                <th scope="col" colspan="7" style="text-align: center;">Deposit Interest Rates (w.e.f
-                                                    01.07.2024)</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr style="background-color: #104E8B;" class="text-white">
-                                                <!-- <td></td> -->
-                                                <td colspan="5" class="text-center"> <b>Period</b></td>
-                                                <!-- <td></td> -->
-                                                <!-- <td></td> -->
-                                                <td><b>General</b></td>
-                                                
-                                                </tr>
-                                                <tr class="" style="background-color: #b4d4f5;">
-                                                <td></td>
-                                                <td>45</td>
-                                                <td>days</td>
-                                                <td>to</td>
-                                                <td>90 days</td>
-                                                <td>4.50%</td>
-                                                
-                                                </tr>
-                                                <tr class="text-white" style="background-color: #104E8B;">
-                                                <td></td>
-                                                <td>91</td>
-                                                <td>days</td>
-                                                <td>to</td>
-                                                <td>180 days</td>
-                                                <td>6.00%</td>
-                                               
-                                                </tr>
-                                                <tr class="" style="background-color: #b4d4f5;">
-                                                <td></td>
-                                                <td>181</td>
-                                                <td>days</td>
-                                                <td>to</td>
-                                                <td>364 days</td>
-                                                <td>6.50%</td>
-                                               
-                                                </tr>
-                                                <tr class="text-white" style="background-color: #104E8B;">
-                                                <td>above</td>
-                                                <td>1</td>
-                                                <td>year</td>
-                                                <td>to</td>
-                                                <td>below 13 months</td>
-                                                <td>7.50%</td>
-                                              
-                                                </tr>
-                                                <tr class="" style="background-color: #b4d4f5;">
-                                                <td>above</td>
-                                                <td>13</td>
-                                                <td>months</td>
-                                                <td>to</td>
-                                                <td>below  3 years</td>
-                                                <td>8.00%</td>
-                                               
-                                                </tr>
-                                                <tr class="text-white" style="background-color: #104E8B;">
-                                                <td>above</td>
-                                                <td>3</td>
-                                                <td>years</td>
-                                                <td>to</td>
-                                                <td>above</td>
-                                                <td>7.50%</td>
-                                               
-
-                                                </tr>
-                                            </tbody>
-                                            </table>
-
-                                        </div>
-                                        <h5>
-                                            <p style="background-color: rgb(7, 7, 7);text-align: center; height: 10%; color: white;font-size:20px;"><b>
-                                            For Senior citizens 0.5% p.a. additional interest for above 1 year deposits only. Monthly interest will be paid in full.</b> </p>
-                                        </h5>
-                                        </div><!-- end col -->
-                                    </div>
-                                    </div>
-                                </section><!-- End Services Section -->
-                                </div>
-
-                            </div>
-
-                            </section><!-- /Team Section -->
                         </main>
 
                         `;
