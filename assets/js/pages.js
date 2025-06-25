@@ -566,159 +566,316 @@ function changeContent(page) {
 			`;
             break;
 
-        case 'housing_loan':
+        case 'loans':
             contentDiv.innerHTML = `              
                 <div class="container001">
                     <img src="assets/img/page-top-images/Home_loan4.jpg" alt="Snow" style="width:100%;">
                     <div class="centered text-white">
-                    <h1 style="font-size:clamp(14px, 4vw, 40px);color:rgb(239, 255, 9);">HOME LOANS</h1>
+                    <h1 style="font-size:clamp(14px, 4vw, 40px);color:rgb(0, 89, 255);">LOANS</h1>
                     <p style="font-size:clamp(14px, 4vw, 15px);color:rgb(6, 28, 224)">Home / LOANS</p>
                     </div>
                 </div>
+                <br>
+                <br>
 
                 <main>
-                <!-- Team Section -->
-                <section id="team" class="team section">
+            
 
                 <!-- Section Title -->
                 <div class="container section-title" data-aos="fade-up">
                     <!-- <h2>Gold-loan</h2> -->
-                    <h1 class="" style="text-shadow: 0px 5px rgb(187, 195, 196);"><span style="color: black;">HOME </span><strong style="color: rgb(255, 0, 0);">LOAN</strong></h1>
+                    <h1 class="" style="text-shadow: 0px 5px rgb(187, 195, 196);"><span style="color: black;"></span><strong style="color: rgb(0, 26, 255);">LOAN</strong></h1>
 
                     <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
                 </div><!-- End Section Title -->
 
-                <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                    <div class="table-responsive-sm">
-               <table style="border: solid black 2px;">
-                <thead>
-                  <tr class="table-dark" style="background-color:rgb(10, 10, 10); color: antiquewhite; font-size: 20px;">
-                    <th scope="col" colspan="7" style="text-align: center; color: antiquewhite;">Loan Interest Rates (w.e.f 01.06.2025)</th>
-                  </tr>
-                </thead>
-                <style>
-                .add {
-                    background-color : rgb(254, 231, 255);
-                }
+                     <section class="circle-section">
 
-                .even {
-                        background-color:rgb(255, 255, 255);
-                 }
-                     table, th, td {
-                        border: 0.5px solid rgb(3, 3, 3);
-                        color: black;
-                        }
-                </style>
-                <tbody>
-                  <tr class="add"  class="text-white">
-                    <td colspan="" class="text-center"> <b>SL.NO</b></td>
-                    <td colspan="" class="text-center"> <b>TITLE</b></td>
-                    <!-- <td></td> -->
-                    <!-- <td></td> -->
-                    <td class="text-center"><b>INTEREST ON 01.06.2025</b></td>
-                  </tr>
-
-                  <tr class="even" >
-                    <td class="text-center">01</td>
-                    <td>Mortgage Loan</td>
-                    <td>14.50%</td>
-                  </tr>
-
-                   <tr class="even" >
-                    <td class="text-center">02</td>
-                    <td>Eligibility</td>
-                    <td>A Khatha B Khatha,Four Districts Limit,<br>
-                        Salaried Employees / Businessmen/Professionals and Individuals with proven source of Income</td>
-
-
-                  </tr>
-                  <tr class="text-white add" >
-                    <td class="text-center">03</td>
-                    <td>Loan Limit</td>
-                    <td>Rs.7500000/-(seventy five lakhs) Maximum</td>
-
-                  </tr>
-
-                  <tr class="text-white add" >
-                    <td class="text-center">04</td>
-                    <td>Rate of Interest</td>
-                    <td>
-                    <table style="color: antiquewhite;">
+        <!-- Desktop View -->
+        <div class="circle-container">
+            <div class="center-table">
+                <h5 class="mb-3">Loan Interest Rates</h5>
+                <table class="table table-bordered table-sm mb-0 text-start">
+                    <thead class="table-light">
                         <tr>
-                          <td>A) For Repair & Renovation & purchase of property with monthly EMI</td>
-                          <td>Upto Rs.75 Lakhs</td>
-                          <td> 9% </td>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Interest Rates</th>
                         </tr>
-
+                    </thead>
+                    <tbody>
                         <tr>
-                          <td>B) For Repair & Renovation and purchase of proprerty with Non EMI</td>
-                          <td>Upto Rs.25 Lakhs</td>
-                          <td> 11.50% </td>
+                            <td>1</td>
+                            <td>Mortgage Loan</td>
+                            <td>14.50%</td>
                         </tr>
-
-                          <tr>
-                          <td></td>
-                          <td>Rs.25 Lakhs to Rs.75 Lakhs</td>
-                          <td>11.50% </td>
+                        <tr>
+                            <td>2</td>
+                            <td>Cash Credit Loan</td>
+                            <td>13.50%</td>
                         </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Salary Loan</td>
+                            <td>13.00%</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Home Loan</td>
+                            <td>13.00%</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Gold Loan</td>
+                            <td>11.00%</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ware House Receipt Loan</td>
+                            <td>12.50%</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Vehicle Loan</td>
+                            <td>12-15%</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Suarity Loan</td>
+                            <td>16.25%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                      </table> 
-                    
-                    </td>
-                  </tr>
+            <div class="card-circle card1" style="background-image: url('assets/img/page-top-images/Mortgauge_loan2.jpg');">Mortgage Loan</div>
+            <div class="card-circle card2" style="background-image: url('assets/img/page-top-images/Demand_loan5.jpg');">Cash Credit Loan</div>
+            <div class="card-circle card3" style="background-image: url('assets/images/loans/Salary_loan1.jpg');">Salary Loan</div>
+            <div class="card-circle card4" style="background-image: url('assets/images/loans/Vehical\ loan\ 1.jpg');">Home Loan</div>
+            <div class="card-circle card5" style="background-image: url('assets/images/loans/Gold\ Loan12.jpg');">Gold Loan</div>
+            <div class="card-circle card6" style="background-image: url('assets/images/loans/warehouse_receipt_loan1.jpg');">Ware House Receipt Loan</div>
+            <div class="card-circle card7" style="background-image: url('assets/images/loans/Vehical\ loan\ 1.jpg');">Vehicle Loan</div>
+            <div class="card-circle card8" style="background-image: url('assets/images/loans/surity.jpg');">Suarity Loan</div>
+            <!-- <div class="card-circle card9" style="background-image: url('https://picsum.photos/id/1091/300/200');"><i
+                    class="bi bi-box"></i>Card 9</div> -->
+        </div>
 
-                
+        <!-- Mobile View -->
+        <div class="center-table d-md-none mb-4">
+            <h5 class="mb-3">Loan Interest Rates</h5>
+                <table class="table table-bordered table-sm mb-0 text-start">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Interest Rates</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mortgage Loan</td>
+                            <td>14.50%</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Cash Credit Loan</td>
+                            <td>13.50%</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Salary Loan</td>
+                            <td>13.00%</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Home Loan</td>
+                            <td>13.00%</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Gold Loan</td>
+                            <td>11.00%</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ware House Receipt Loan</td>
+                            <td>12.50%</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Vehicle Loan</td>
+                            <td>12-15%</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Suarity Loan</td>
+                            <td>16.25%</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
 
-                 
-                  <tr class="even" >
-                    <td class="text-center">05</td>
-                    <td>Repayment Period</td>
-                    <td>Repayable in 180  EMI </td>
-                  </tr>
+        <div class="cards-mobile d-md-none">
+                 <div class="card-circle " style="background-image: url('assets/img/page-top-images/Mortgauge_loan2.jpg');">Mortgage Loan</div>
+            <div class="card-circle " style="background-image: url('assets/img/page-top-images/Demand_loan5.jpg');">Cash Credit Loan</div>
+            <div class="card-circle " style="background-image: url('assets/images/loans/Salary_loan1.jpg');">Salary Loan</div>
+            <div class="card-circle " style="background-image: url('assets/images/loans/Vehical\ loan\ 1.jpg');">Home Loan</div>
+            <div class="card-circle " style="background-image: url('assets/images/loans/Gold\ Loan12.jpg');">Gold Loan</div>
+            <div class="card-circle " style="background-image: url('assets/images/loans/warehouse_receipt_loan1.jpg');">Ware House Receipt Loan</div>
+            <div class="card-circle " style="background-image: url('assets/images/loans/Vehical\ loan\ 1.jpg');">Vehicle Loan</div>
+            <div class="card-circle " style="background-image: url('assets/images/loans/surity.jpg');">Suarity Loan</div>
+        </div>
 
-                  <tr class="text-white add" >
-                    <td class="text-center">06</td>
-                    <td>Security</td>
-                    <td>Mortgage of the Property by way of Registered Memorandum of Deposit of Title deeds</td>
-                  </tr>
+    </section>
 
-                  <tr class=" even">
-                    <td class="text-center">07</td>
-                    <td>Share Holding</td>
-                    <td>2.5% of the Loan amount as per RBI notification</td>
-                  </tr>
+     <style>
+     
+
+        .circle-section {
+            padding: 60px 15px;
+            text-align: center;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .circle-container {
+            position: relative;
+            width: 700px;
+            height: 700px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .center-table {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            width: 340px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+             background-color: rgb(209, 210, 233);
+        }
+
+        .card-circle {
+            position: absolute;
+            width: 200px;
+            height: 120px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(217, 255, 0);
+            font-weight: bold;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+            padding: 12px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card-circle i {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .card-circle:hover {
+            transform: scale(1.05);
+        }
+
+        /* Circle positions - desktop */
+        .card1 {
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card2 {
+            top: 18%;
+            left: 95%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card3 {
+            top: 50%;
+            left: 110%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card4 {
+            top: 82%;
+            left: 95%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card5 {
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card6 {
+            top: 82%;
+            left: 5%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card7 {
+            top: 50%;
+            left: -5%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card8 {
+            top: 18%;
+            left: 5%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card9 {
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(180deg);
+        }
+
+        /* Responsive layout - mobile */
+        @media (max-width: 768px) {
+            .circle-container {
+                display: none;
+            }
+
+            .cards-mobile {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+                gap: 15px;
+                max-width: 540px;
+                margin: 30px auto 0;
+            }
+
+            .card-circle {
+                position: static;
+                width: 100%;
+                height: 140px;
+            }
+
+            .center-table {
+                position: static;
+                transform: none;
+                margin: 0 auto;
+            }
+        }
+    </style>
 
 
-                  <tr class="text-white add" >
-                    <td class="text-center">08</td>
-                    <td>Purpose Proof</td>
-                    <td>Construction/Approved plan<br>
-                            Construction Extension<br>
-                            Approved plan, Estimation for construction by Registered civil engineers.Property photo ( 2 views) – property and road.<br>
-                            Purchase of House Agreement of Sale executed on stamp paper Xerox copies of property documents.</td>
-                  </tr>
 
-                     <tr class="even" >
-                    <td class="text-center">09</td>
-                    <td>Documentation</td>
-                    <td>Prescribed Application Form with Attested Copies of Photo ID – Voter ID/DrivLicense/Passport/Aadhar PAN Card<br>
-                            Income Proof - Salaried<br>
-                            Certified Salary Certificate/Payslips- 3 months Form 16A issued by employer, Copy of Passbook 3 years IT Returns
-                            Business/Professionals<br>
-                            3 years IT Returns, with Tax paid challan Professionals/ Bank pass book/statement
-                            Self employed<br>
-                            1. Consent declaration from family members wherever applicable.<br>
-                            2. Income proof as above of family members wherever applicable.</td>
-                  </tr>
-
-                  
-                </tbody>
-              </table>
-
-                    </div>
-                </div>
-                </section><!-- /Team Section -->
                 </main>
                         `;
             break;
@@ -1326,7 +1483,18 @@ function changeContent(page) {
                             </div>
                         </div>
                         
-                        <main>                    
+                        <main> 
+                        <br>
+                        <br>   
+                        
+                              <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <!-- <h2>Gold-loan</h2> -->
+                    <h1 class="" style="text-shadow: 0px 5px rgb(187, 195, 196);"><span style="color: black;"></span><strong style="color: rgb(0, 26, 255);">DEPOSIT</strong></h1>
+
+                    <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+                </div><!-- End Section Title -->
+
                         <section class="deposit-section">
                             <div class="deposit-container">
                             <!-- Left: Deposit Table -->
@@ -1397,82 +1565,82 @@ function changeContent(page) {
 
 
                        <style>
-  .deposit-section {
-    padding: 70px 20px;
-  }
+                            .deposit-section {
+                                padding: 70px 20px;
+                            }
 
-  .deposit-container {
-    display: flex;
-    flex-wrap: wrap;
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow */
-    overflow: hidden;
-    max-width: 960px;
-    margin: auto;
-    transition: box-shadow 0.3s ease-in-out;
-  }
+                            .deposit-container {
+                                display: flex;
+                                flex-wrap: wrap;
+                                background: white;
+                                border-radius: 20px;
+                                box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+                                overflow: hidden;
+                                max-width: 960px;
+                                margin: auto;
+                                transition: box-shadow 0.3s ease-in-out;
+                            }
 
-  .deposit-container:hover {
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-  }
+                            .deposit-container:hover {
+                                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+                            }
 
-  .deposit-table-side {
-    flex: 1 1 60%;
-    padding: 40px 30px;
-  }
+                            .deposit-table-side {
+                                flex: 1 1 60%;
+                                padding: 40px 30px;
+                            }
 
-  .deposit-info-side {
-    flex: 1 1 40%;
-    background: linear-gradient(135deg, #0066cc, #00bfff);
-    color: white;
-    padding: 40px 30px;
-  }
+                            .deposit-info-side {
+                                flex: 1 1 40%;
+                                background: linear-gradient(135deg, #0066cc, #00bfff);
+                                color: white;
+                                padding: 40px 30px;
+                            }
 
-  .deposit-info-side h4 {
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
+                            .deposit-info-side h4 {
+                                margin-bottom: 20px;
+                                font-weight: bold;
+                            }
 
-  .deposit-info-side p {
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
+                            .deposit-info-side p {
+                                font-size: 15px;
+                                margin-bottom: 10px;
+                            }
 
-  table th,
-  table td {
-    padding: 12px 15px;
-    font-size: 16px;
-  }
+                            table th,
+                            table td {
+                                padding: 12px 15px;
+                                font-size: 16px;
+                            }
 
-  .deposit-table-side table,
-  .deposit-table-side th,
-  .deposit-table-side td {
-    border: 1px solid #333 !important;
-    border-collapse: collapse;
-  }
+                            .deposit-table-side table,
+                            .deposit-table-side th,
+                            .deposit-table-side td {
+                                border: 1px solid #333 !important;
+                                border-collapse: collapse;
+                            }
 
-  .deposit-table-side table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+                            .deposit-table-side table {
+                                width: 100%;
+                                border-collapse: collapse;
+                            }
 
-  .deposit-table-side tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
+                            .deposit-table-side tr:nth-child(even) {
+                                background-color: #f9f9f9;
+                            }
 
-  @media (max-width: 768px) {
-    .deposit-container {
-      flex-direction: column;
-    }
+                            @media (max-width: 768px) {
+                                .deposit-container {
+                                flex-direction: column;
+                                }
 
-    .deposit-table-side,
-    .deposit-info-side {
-      flex: 1 1 100%;
-      padding: 25px 20px;
-    }
-  }
-</style>
+                                .deposit-table-side,
+                                .deposit-info-side {
+                                flex: 1 1 100%;
+                                padding: 25px 20px;
+                                }
+                            }
+                            </style>
 
 
                         
@@ -1501,31 +1669,7 @@ function changeContent(page) {
                                                 </span><strong style="color:rgb(255, 0, 0); ">BRANCHES</strong></h1>
                                         </div><!-- End Section Title -->
                                         <section class="section" style="background-color:rgb(252, 217, 221);">
-                                            <div class="column" style="border: solid rgb(255, 9, 1) 2px;">
-                                                <div class="card-container">
-                                                    <div class="card">
-                                                        <div class="card-face front">
-                                                            <img src="assets/images/main.png" alt="Image 1">
-                                                        </div>
-                                                        <div class="card-face back">
-                                                            <p>Janata Co-operative Bank Limited,<br>
-                                                                01, Gokak Road, Harugeri<br>
-                                                                Belagavi, Karnataka - 591220.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="map-container">
-                                                    <!-- Google Maps Embed -->
-                                                    <iframe
-                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1124.396413697502!2d74.94917768011774!3d16.51654686147832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0cd3c775bec95%3A0xe6ce28eccbe2df08!2sJanata%20Co-operative%20Bank%20Ltd.!5e1!3m2!1sen!2sin!4v1749119313117!5m2!1sen!2sin"
-                                                        style="border:0;width:100%;height:100%;" allowfullscreen="" loading="lazy"></iframe>
-                                                </div>
-                                                <div class="address">
-                                                    <p>Janata Co-operative Bank Limited,<br>
-                                                        01, Gokak Road, Harugeri<br>
-                                                        Belagavi, Karnataka - 591220.</p>
-                                                </div>
-                                            </div>
+                                         
                                             <div class="column" style="border: solid rgb(255, 0, 0) 2px;">
 
                                                 <div class="card-container">
@@ -1592,37 +1736,6 @@ function changeContent(page) {
                                                 </div>
                                             </div>
 
-                                            <div class="column" style="border: solid rgb(255, 0, 0) 2px;">
-                                                <div class="card-container">
-                                                    <div class="card">
-                                                        <div class="card-face front">
-                                                            <img src="assets/images/athani.png" alt="Image 1">
-                                                        </div>
-                                                        <div class="card-face back">
-                                                            <p>
-                                                                ATHANI BRANCH<br>
-                                                                KARNATAKA HOTEL,<br>
-                                                                OPPOSITE POLICE STATION , <br>
-                                                                MAIN ROAD, ATHANI, DIST:BELAGAVI KARNATAKA
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="map-container">
-                                                    <!-- Google Maps Embed -->
-                                                    <iframe
-                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4492.660245771604!2d75.05796647573688!3d16.72684802149665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc72a1d5a82ffb3%3A0x9f6d7fccb90a5454!2sJANATA%20CO%20OP%20BANK%20LTD%20HARUGERI%20BR%20ATHANI!5e1!3m2!1sen!2sin!4v1749119974876!5m2!1sen!2sin"
-                                                        style="border:0;width:100%;height:100%;" allowfullscreen="" loading="lazy"></iframe>
-                                                </div>
-                                                <div class="address">
-                                                    <p>
-                                                       <h5><b> ATHANI BRANCH</b></h5>
-                                                        KARNATAKA HOTEL,<br>
-                                                        OPPOSITE POLICE STATION , <br>
-                                                        MAIN ROAD, ATHANI, DIST:BELAGAVI KARNATAKA
-                                                    </p>
-                                                </div>
-                                            </div>
                                         </section>
                                     </section>
                                 </main>
